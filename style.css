@@ -1,0 +1,100 @@
+/*
+	BLUE: #00b6f1; 
+	GREY: #f3f3f5
+*/
+
+body, html {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.vertical-center {
+	min-height: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+body {
+	background-color: #f3f3f5;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h4 {
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+#prof {
+	width: 150px;
+	border-radius: 100%;
+	border: 3px solid #00b6f1;
+}
+
+.blue-bold {
+	font-weight: 700;
+	color: #00b6f1;
+}
+
+.btn-primary {
+	background-color: #00b6f1;
+	border: 2px solid #00b6f1;
+	color: white;
+	width: 200px;
+	margin: 0 10px 10px 10px;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:target,
+.btn-primary:focus,
+.btn-primary:active:focus {
+	background-color: #f3f3f5 !important;
+	border-color: #00b6f1 !important;
+	color: #00b6f1 !important;
+	box-shadow: none !important;
+}
+
+a {
+	color: #00b6f1;
+}
+
+a:hover {
+	color: #00b6f1;
+}
+
+#button-row {
+	margin-top: 15px;
+}
+
+.modal-info {
+	margin-top: -5px;
+}
+
+.modal-icon {
+	color: #00b6f1;
+}
+
+.caption-primary {
+	margin-top: 10px;
+}
+
+.caption-secondary {
+	margin-top: -5px;
+}
+
+.howitsmade {
+	font-size: .75em;
+	margin-top: -15px;
+}
+
+#portfolio-header {
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+	.small-center {
+		text-align: center;
+	}
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+	<title>Adam Bowker - Portfolio</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet">
+
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<!-- style.css -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="vertical-center">
+		<div class="container-fluid" id="primary">
+			<div class="row">
+				<div class="col-md-8 offset-md-2 text-center">
+					<img id="prof" src="about.jpg" alt="profile picture">
+					<h1>Hi, I'm <span class="blue-bold">Adam Bowker</span>!</h1>
+					<h4>Computer Science Student &amp; Entrepreneur</h4>
+					<p>
+						I'm currently a junior studying computer science at NC State Univeristy. I spend my time starting businesses, building cool stuff like drones and electric longboards, and taking care of my bearded dragon, Zero.
+					</p>
+				</div>
+			</div>
+
+			<div class="row" id="button-row">
+				<div class="col-md-8 offset-md-2">
+					<div class="row">
+						<div class="col-lg-4 text-right" id="left-button">
+							<a class="btn btn-primary" href="portfolio.html"><i class="far fa-file"></i> &nbsp;View Portfolio</a>
+						</div>
+						<div class="col-lg-4 text-center">
+							<a class="btn btn-primary" href="resume.pdf" target="_blank" download><i class="fas fa-download"></i> &nbsp;Download R&eacute;sum&eacute;</a>
+						</div>
+						<div class="col-lg-4 text-left" id="right-button">
+							<button class="btn btn-primary" href="#" data-toggle="modal" data-target="#contactModal"><i class="far fa-envelope"></i> &nbsp;Contact Me</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-label="contactModalTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title blue-bold" id="contactModalTitle">Contact Me</h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p class="modal-info"><i class="fas fa-phone modal-icon"></i> &nbsp;&nbsp;910.260.2599</p>
+					<p class="modal-info"><i class="fas fa-envelope modal-icon"></i> &nbsp;&nbsp;albowker@ncsu.edu</p>
+					<p class="modal-info"><i class="fas fa-location-arrow modal-icon"></i> &nbsp;&nbsp;2717 Western Blvd. #435-D, Raleigh, NC 27606</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- adboio.js -->
+	<script type="text/javascript" src="adboio.js"></script>
+
+	<!-- Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
