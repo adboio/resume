@@ -11,7 +11,6 @@ function buttonCenter(x) {
 	var left = document.getElementById('left-button');
 	var right = document.getElementById('right-button');
 
-
 	if (x.matches) {
 		left.classList.add("text-center");
 		left.classList.remove("text-right");

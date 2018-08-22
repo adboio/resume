@@ -37,6 +37,11 @@ h4 {
 	color: #00b6f1;
 }
 
+.grey-bold {
+	font-weight: 700;
+	color: #f3f3f5;
+}
+
 .btn-primary {
 	background-color: #00b6f1;
 	border: 2px solid #00b6f1;
@@ -84,13 +89,32 @@ a:hover {
 	margin-top: -5px;
 }
 
+.port-link {
+	color: #f3f3f5;
+}
+
+.port-link:hover {
+	color: #ffffff;
+}
+
 .howitsmade {
 	font-size: .75em;
 	margin-top: -15px;
+	text-decoration: underline;
 }
 
 #portfolio-header {
 	margin-bottom: 20px;
+}
+
+#web-portfolio {
+	padding-top: 25px;
+	color: #f3f3f5;
+	background-color: #00b6f1;
+}
+
+#footer {
+	padding-top: 10px;
 }
 
 @media screen and (max-width: 1200px) {
