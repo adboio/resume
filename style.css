@@ -114,7 +114,42 @@ a:hover {
 }
 
 #footer {
+	color: #f3f3f5;
+	background-color: #00b6f1;
 	padding-top: 10px;
+}
+
+#resume-panel {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.resume-header {
+	margin-bottom: 12px;
+	border-bottom: 3px solid #00b6f1;
+}
+
+.entry {
+	margin-bottom: 20px;
+}
+
+.social-link {
+	font-size: 1.5em;
+	color: #ffffff;
+}
+
+.social-link:hover {
+	color: #ffffff;
+	opacity: .7;
+	transition: all .2s ease-in;
+}
+
+#resume-download {
+	margin-top: -15px;
+}
+
+#resume-download-link {
+	color: #000000;
 }
 
 @media screen and (max-width: 1200px) {
