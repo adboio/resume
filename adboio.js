@@ -38,7 +38,7 @@ x.addListener(buttonCenter);
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 120,
+      "value": 80,
       "density": {
         "enable": true,
         "value_area": 800
@@ -63,7 +63,7 @@ particlesJS("particles-js", {
       }
     },
     "opacity": {
-      "value": 0.4,
+      "value": 0.45770653514180026,
       "random": false,
       "anim": {
         "enable": false,
@@ -84,14 +84,14 @@ particlesJS("particles-js", {
     },
     "line_linked": {
       "enable": true,
-      "distance": 100,
+      "distance": 150,
       "color": "#00b6f1",
-      "opacity": 0.35,
+      "opacity": 0.14430665163472378,
       "width": 0.5
     },
     "move": {
       "enable": true,
-      "speed": 5,
+      "speed": 6,
       "direction": "none",
       "random": false,
       "straight": false,
@@ -119,7 +119,7 @@ particlesJS("particles-js", {
     },
     "modes": {
       "grab": {
-        "distance": 250,
+        "distance": 243.6239055957366,
         "line_linked": {
           "opacity": 1
         }
