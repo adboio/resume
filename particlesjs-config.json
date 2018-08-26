@@ -1,41 +1,4 @@
-$(document).on('click', 'a[href^="#"]', function(event) {
-    event.preventDefault();
-
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top -5
-    }, 750);
-});
-
-function buttonCenter(x) {
-
-	var left = document.getElementById('left-button');
-	var right = document.getElementById('right-button');
-
-	if (x.matches) {
-		left.classList.add("text-center");
-		left.classList.remove("text-right");
-		
-		right.classList.add("text-center");
-		right.classList.remove("text-left");
-	} else {
-		left.classList.remove("text-center");
-		left.classList.add("text-right");
-		
-		right.classList.remove("text-center");
-		right.classList.add("text-left");
-	}
-}
-
-var x = window.matchMedia("(max-width: 1200px)");
-buttonCenter(x);
-x.addListener(buttonCenter);
-
-// /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-// particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-//   console.log('callback - particles.js config loaded');
-// });
-
-particlesJS("particles-js", {
+{
   "particles": {
     "number": {
       "value": 80,
@@ -84,7 +47,7 @@ particlesJS("particles-js", {
     },
     "line_linked": {
       "enable": true,
-      "distance": 300,
+      "distance": 150,
       "color": "#00b6f1",
       "opacity": 0.14430665163472378,
       "width": 0.5
@@ -144,4 +107,4 @@ particlesJS("particles-js", {
     }
   },
   "retina_detect": true
-});
+}

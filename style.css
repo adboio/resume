@@ -21,6 +21,22 @@ body {
 	font-family: 'Titillium Web', sans-serif;
 }
 
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+	background: $background
+}
+
+#primary {
+	position: absolute;
+}
+
 h4 {
 	margin-top: -10px;
 	margin-bottom: 20px;
