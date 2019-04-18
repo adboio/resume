@@ -16,6 +16,8 @@
 	<!-- FontAwesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
+	<link rel="stylesheet" type="text/css" href="slick.css"/>
+
 	<!-- style.css -->
 	<link rel="stylesheet" href="style.css">
 
@@ -28,317 +30,97 @@
 
 	<!-- MAIN BODY -->
 	<div class="vertical-center">
-		<div class="container-fluid" id="primary">
+		<div class="container" id="primary">
 			<div class="row">
-				<div class="col-md-8 offset-md-2 text-center">
+				<div class="col-12 text-center">
 					<!-- <div data-tilt> -->
 					<img id="prof" src="AEpMr0gD_400x400.jpg" alt="profile picture">
-					<h1>Hi, I'm <span class="blue-bold">Adam Bowker</span>!</h1>
-					<h4>Computer Science Student &amp; Entrepreneur</h4>
+					<h1>Hi, I'm <strong>Adam Bowker</strong>.</h1>
+					<h3>I solve problems with computers.</h3>
 					<!-- </div> -->
 
-					<p>
-						I'm currently a junior studying computer science at NC State Univeristy. I spend my time starting businesses, building cool stuff like drones and electric longboards, and taking care of my bearded dragon, Zero.
-					</p>
+					<!-- <p>
+						I solve problems with computers.
+					</p> -->
 				</div>
 			</div>
 
 			<div class="row" id="button-row">
 				<div class="col-md-8 offset-md-2">
 					<div class="row">
-						<div class="col-lg-4 text-right" id="left-button">
-							<a class="btn btn-primary" href="#portfolio-header"><i class="fas fa-th-large"></i> &nbsp;Web Portfolio</a>
+						<!-- <div class="col-lg-4">
+							<a class="btn btn-primary" href="#portfolio-header"><i class="fas fa-th-large"></i> &nbsp;Work</a>
 						</div>
 						<div class="col-lg-4 text-center">
-							<a class="btn btn-primary" href="#resume-panel"><i class="fas fa-file"></i> &nbsp;View R&eacute;sum&eacute;</a>
-						</div>
-						<div class="col-lg-4 text-left" id="right-button">
-							<button class="btn btn-primary" href="#" data-toggle="modal" data-target="#contactModal"><i class="far fa-envelope"></i> &nbsp;Contact Me</button>
+							<a class="btn btn-primary" href="#resume-panel"><i class="fas fa-file"></i> &nbsp;R&eacute;sum&eacute;</a>
+						</div> -->
+						<div class="col-12 text-center">
+							<button class="btn btn-primary" href="#" data-toggle="modal" data-target="#contactModal"><i class="far fa-envelope"></i> &nbsp;Contact</button>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+
+		<div class="container" id="portfolio" style="display: none;">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1>My Work</h1>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6">
+
+
+					<div class="text-center">
+						<img class="img-fluid portfolio-img" src="highlowgod.png">
+						<p>SMS-based tool for personal reflection</p>
+					</div>
+
+				</div>
+
+				<div class="col-md-6">
+
+					<div class="text-center">
+						<img class="img-fluid portfolio-img" src="crushedit.png">
+						<p>Poster-sized lists of your startup's goals</p>
+					</div>
+
+				</div>
+
+			</div>
+
+
+				<div class="row">
+					<div class="col-12 text-center">
+						<a class="btn btn-primary" href="#" id="portfolio-go-home"><i class="fas fa-arrow-alt-circle-left"></i> &nbsp;Back</a>
+					</div>
+				</div>
 		</div>
 	</div>
 	
-
-	<!-- PORTFOLIO -->
-	<div class="container-fluid" id="web-portfolio">
-		<div class="row">
-			<div class="col-12">
-				<h1 class="text-center grey-bold" id="portfolio-header">Web Portfolio</h1>
-			</div>
-		</div>
-		<div class="row text-center">
-			<div class="col-md-6">
-				<img class="img-fluid" src="highlowgod.png">
-				<h5 class="caption-primary"><a href="https://www.highlowgod.com" target="_blank" class="port-link">HighLowGod.com</a></h5>
-				<p class="caption-secondary">A tool for daily reflection</p>
-				<p class="howitsmade"><a href="" data-toggle="modal" data-target="#hlgModal" class="port-link">How It's Made</a> &nbsp;<i class="fas fa-external-link-alt"></i></p>
-			</div>
-			<div class="col-md-6">
-				<img class="img-fluid" src="crushedit.png">
-				<h5 class="caption-primary"><a href="https://dev.crushedit.io" target="_blank" class="port-link">CrushedIt.io</a></h5>
-				<p class="caption-secondary">Poster-sized lists of your startup's goals</p>
-				<p class="howitsmade"><a href="" data-toggle="modal" data-target="#ciModal" class="port-link">How It's Made</a> &nbsp;<i class="fas fa-external-link-alt"></i></p>
-			</div>
-			<div class="col-md-6">
-				<img class="img-fluid" src="puph.png">
-				<h5 class="caption-primary"><a href="https://popuppartyhoppers.com" target="_blank" class="port-link">Pop-Up Party Hoppers</a></h5>
-				<p class="caption-secondary">Custom Booking & Invoicing System for Sign Rentals</p>
-				<p class="howitsmade"><a href="" data-toggle="modal" data-target="#puphModal" class="port-link">How It's Made</a> &nbsp;<i class="fas fa-external-link-alt"></i></p>
-			</div>
-		</div>
-	</div>
-
-	<!-- RESUME -->
-	<div class="container-fluid" id="resume-panel">
-		<div class="row">
-			<div class="col-12 text-center">
-				<h1 class="blue-bold" id="portfolio-header">R&eacute;sum&eacute;</h1>
-				<h6 id="resume-download"><a href="resume.pdf" target="_blank" id="resume-download-link" download>Download &nbsp;<i class="far fa-file-pdf"></i></a></h6>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-8 offset-md-2 text-right resume-header">
-				<h3>Education &nbsp;&nbsp;<i class="fas fa-graduation-cap"></i></h3>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-8 offset-md-2">
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						NC State University<br/>
-						Aug 2016 - Present
-					</div>
-					<div class="col-md-8 text-left">
-						At NC State, I am currently a junior majoring in Computer Science with a focus on web development and a minor in Mandarin Chinese.
-					</div>
-				</div>
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						NC School of Science &amp; Math<br/>
-						Aug 2014 - May 2016
-					</div>
-					<div class="col-md-8 text-left">
-						NCSSM allowed me to gain a wider perspective on the world, and helped turn my dream of an engineering education into a reality.
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-8 offset-md-2 text-right resume-header">
-				<h3>Experience &nbsp;&nbsp;<i class="fas fa-briefcase"></i></h3>
-			</div>
-		</div>
-
-		<div class="row">
-			<div class="col-md-8 offset-md-2">
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						Computer Science Instructor, CAML Academy<br/>
-						August 2018 - Present
-					</div>
-					<div class="col-md-8 text-left">
-						With CAML Academy, I travel to various schools in the Triangle area teaching elementary and middle schoolers the basics of computer science through MinecraftEDU and Scratch.
-					</div>
-				</div>
-
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						Founder, HighLowGod.com<br/>
-						June 2018
-					</div>
-					<div class="col-md-8 text-left">
-						HighLowGod is a simple reminder to reflect on your High, Low, and God moments of each day. www.highlowgod.com
-					</div>
-				</div>
-
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						Software Dev Intern, Aftercare.com<br/>
-						May 2018 - Aug 2018
-					</div>
-					<div class="col-md-8 text-left">
-						At Aftercare.com, I had many responsibilities surrounding software and web development. Some of these included AWS EC2/RDS management, writing Python scripts for automation, and building a few Node.js projects from scratch.
-					</div>
-				</div>
-
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						Video &amp; Web Designer, NCSU CE<br/>
-						Aug 2017 - Present
-					</div>
-					<div class="col-md-8 text-left">
-						I work with the marketing team to film events on campus and create effective recap, recruitment, and promotional videos, as well as maintain our websites.
-					</div>
-				</div>
-
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						IT Intern, Smithfield Foods<br/>
-						May 2017 - Aug 2017
-					</div>
-					<div class="col-md-8 text-left">
-						My primary focus was traveling to wheat and corn farms every day to collect data about the crops via drone. Beyond this, I also worked in the IT department for several weeks, setting up new computers and resolving tickets from fellow employees.
-					</div>
-				</div>
-
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						Technical Marketing Intern, PawBoost<br/>
-						Nov 2016 - May 2017
-					</div>
-					<div class="col-md-8 text-left">
-						I began by writing code to scrape websites for data in order to increase our customer base. Over time, my responsibilities were shifted to creat- ing and managing our Facebook pages, expanding our online presence to other countries, and building Pawboost’s Reddit presence from scratch.
-					</div>
-				</div>
-
-				<div class="row entry">
-					<div class="col-md-4 text-right">
-						Founder, Adam's Vinyl<br/>
-						Feb 2014 - Dec 2016
-					</div>
-					<div class="col-md-8 text-left">
-						I started an operated online shop selling vinyl decals to customers across the continent. I designed and manufactured all products myself, and handled all customer service.
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-	</div>
-
-	<!-- FOOTER -->
-	<div class="container-fluid" id="footer">
-		<div class="row">
-			<div class="col-6 text-left">
-				<a href="https://www.facebook.com/adboio" target="_blank" class="social-link"><i class="fab fa-facebook-square"></i></a>&nbsp;&nbsp;
-				<a href="https://twitter.com/adboio" target="_blank" class="social-link"><i class="fab fa-twitter-square"></i></a>&nbsp;&nbsp;
-				<a href="https://github.com/adboio" target="_blank" class="social-link"><i class="fab fa-github-square"></i></a>&nbsp;&nbsp;
-				<a href="https://linkedin.com/in/adam-bowker" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>&nbsp;&nbsp;
-			</div>
-			<div class="col-6 text-right">
-				<p>&copy; Adam Bowker 2018</p>
-			</div>
-		</div>
-	</div>
-
-	<!-- HIGHLOWGOD MODAL -->
-	<div class="modal fade" id="hlgModal" tabindex="-1" role="dialog" aria-label="hlgModalTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="modal-title blue-bold" id="hlgModalTitle">HighLowGod.com</h3>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<p>HighLowGod was built using the following web technologies:</p>
-					<ul>
-						<li>DigitalOcean Linux Box</li>
-						<li>Amazon RDS</li>
-						<li>MySQL</li>
-						<li>Nginx</li>
-						<li>Node.js / Express.js (website &amp; SMS auto-reply)</li>
-						<li>Python & Cron (SMS sending)</li>
-						<li>Twilio API</li>
-						<li>Front-end JS</li>
-						<li>CSS + Bootstrap</li>
-						<li>HTML</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- CRUSHEDIT MODAL -->
-	<div class="modal fade" id="ciModal" tabindex="-1" role="dialog" aria-label="ciModalTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="modal-title blue-bold" id="ciModalTitle">CrushedIt.io</h3>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<p>CrushedIt was built using the following web technologies:</p>
-					<ul>
-						<li>DigitalOcean Linux Box</li>
-						<li>Amazon EC2, S3, and RDS</li>
-						<li>MySQL</li>
-						<li>Nginx</li>
-						<li>Node.js / Express.js</li>
-						<li>Front-end JS</li>
-						<li>CSS + Bootstrap</li>
-						<li>HTML</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- PUPH MODAL -->
-	<div class="modal fade" id="puphModal" tabindex="-1" role="dialog" aria-label="hlgModalTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="modal-title blue-bold" id="hlgModalTitle">Pop-Up Party Hoppers</h3>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<p>PopUpPartyHoppers.com was built using the following web technologies:</p>
-					<ul>
-						<li>Heroku</li>
-						<li>Node.js / Express.js (website &amp; invoicing)</li>
-						<li>PayPal API</li>
-						<li>Google Maps Distance Matrix API</li>
-						<li>Front-end JS</li>
-						<li>CSS + Bootstrap</li>
-						<li>HTML</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- ZITA MODAL -->
-	<!-- <div class="modal fade" id="zitaModal" tabindex="-1" role="dialog" aria-label="zitaModalTitle" aria-hidden="true">
-		<div class="modal-dialog modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="modal-title blue-bold" id="zitaModalTitle">Zita.io</h3>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<p>Coming soon!</p>
-				</div>
-			</div>
-		</div>
-	</div> -->
 
 	<!-- CONTACT MODAL -->
 	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-label="contactModalTitle" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h3 class="modal-title blue-bold" id="contactModalTitle">Contact Me</h3>
+					<h3 class="modal-title green-bold" id="contactModalTitle">What's up?</h3>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
+					<p>Hit me up to discuss an idea, get a quote, or even just chat.</p>
+					<br/>
+
 					<p class="modal-info"><i class="fas fa-phone modal-icon"></i> &nbsp;&nbsp;910.260.2599</p>
+
 					<p class="modal-info"><i class="fas fa-envelope modal-icon"></i> &nbsp;&nbsp;albowker@ncsu.edu</p>
-					<p class="modal-info"><i class="fas fa-location-arrow modal-icon"></i> &nbsp;&nbsp;2717 Western Blvd. #435-D, Raleigh, NC 27606</p>
+
+					<!-- <p class="modal-info"><i class="fas fa-location-arrow modal-icon"></i> &nbsp;&nbsp;2717 Western Blvd. #435-D, Raleigh, NC 27606</p> -->
 				</div>
 			</div>
 		</div>
@@ -353,6 +135,8 @@
 
 	<!-- tilt.js -->
 	<script src="tilt.jquery.js"></script>
+
+	<script type="text/javascript" src="slick.min.js"></script>
 
 	
 </body>

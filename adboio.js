@@ -6,29 +6,41 @@ $(document).on('click', 'a[href^="#"]', function(event) {
     }, 750);
 });
 
-function buttonCenter(x) {
+// function buttonCenter(x) {
 
-	var left = document.getElementById('left-button');
-	var right = document.getElementById('right-button');
+// 	var left = document.getElementById('left-button');
+// 	var right = document.getElementById('right-button');
 
-	if (x.matches) {
-		left.classList.add("text-center");
-		left.classList.remove("text-right");
+// 	if (x.matches) {
+// 		left.classList.add("text-center");
+// 		left.classList.remove("text-right");
 		
-		right.classList.add("text-center");
-		right.classList.remove("text-left");
-	} else {
-		left.classList.remove("text-center");
-		left.classList.add("text-right");
+// 		right.classList.add("text-center");
+// 		right.classList.remove("text-left");
+// 	} else {
+// 		left.classList.remove("text-center");
+// 		left.classList.add("text-right");
 		
-		right.classList.remove("text-center");
-		right.classList.add("text-left");
-	}
-}
+// 		right.classList.remove("text-center");
+// 		right.classList.add("text-left");
+// 	}
+// }
 
-var x = window.matchMedia("(max-width: 1200px)");
-buttonCenter(x);
-x.addListener(buttonCenter);
+// var x = window.matchMedia("(max-width: 1200px)");
+// buttonCenter(x);
+// x.addListener(buttonCenter);
+
+// $('#left-button').on('click', function(e) {
+//   $('#primary').fadeOut(250, "swing", function() {
+//     $("#portfolio").fadeIn(250);
+//   });
+// });
+
+// $('#portfolio-go-home').on('click', function(e) {
+//   $('#portfolio').fadeOut(250, "swing", function() {
+//     $("#primary").fadeIn(250);
+//   });
+// });
 
 // /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 // particlesJS.load('particles-js', 'particlesjs-config.json', function() {
@@ -45,7 +57,7 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#00b6f1"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "circle",
@@ -84,14 +96,14 @@ particlesJS("particles-js", {
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
-      "color": "#00b6f1",
+      "distance": 200,
+      "color": "#ffffff",
       "opacity": 0.14430665163472378,
       "width": 0.5
     },
     "move": {
       "enable": true,
-      "speed": 4,
+      "speed": 2,
       "direction": "none",
       "random": false,
       "straight": false,
