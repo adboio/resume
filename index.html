@@ -35,7 +35,7 @@
 				<div class="col-12 text-center">
 					<!-- <div data-tilt> -->
 					<img id="prof" src="new.jpg" alt="profile picture">
-					<h1>Hi, I'm <strong>Adam Bowker</strong>.</h1>
+					<h1>Hi, I'm <strong>Adam</strong>.</h1>
 					<h3>I solve problems with computers.</h3>
 					<!-- </div> -->
 
@@ -54,7 +54,15 @@
 						<div class="col-lg-4 text-center">
 							<a class="btn btn-primary" href="#resume-panel"><i class="fas fa-file"></i> &nbsp;R&eacute;sum&eacute;</a>
 						</div> -->
-						<div class="col-12 text-center">
+						<div class="col-lg-4 text-center">
+							<button class="btn btn-primary" onclick="window.location = 'adambowker-resume_050219.pdf';"><i class="fas fa-download"></i> &nbsp;Resume</button>
+						</div>
+
+						<div class="col-lg-4 text-center">
+							<a class="btn btn-primary" id="portfolioButton" href="#portfolio"><i class="far fa-newspaper"></i> &nbsp;Portfolio</a>
+						</div>
+
+						<div class="col-lg-4 text-center">
 							<button class="btn btn-primary" href="#" data-toggle="modal" data-target="#contactModal"><i class="far fa-envelope"></i> &nbsp;Contact</button>
 						</div>
 					</div>
@@ -62,45 +70,41 @@
 			</div>
 		</div>
 
-		<div class="container" id="portfolio" style="display: none;">
-			<div class="row">
-				<div class="col-12 text-center">
-					<h1>My Work</h1>
-				</div>
-			</div>
-
-			<div class="row">
-
-				<div class="col-md-6">
-
-
-					<div class="text-center">
-						<img class="img-fluid portfolio-img" src="highlowgod.png">
-						<p>SMS-based tool for personal reflection</p>
-					</div>
-
-				</div>
-
-				<div class="col-md-6">
-
-					<div class="text-center">
-						<img class="img-fluid portfolio-img" src="crushedit.png">
-						<p>Poster-sized lists of your startup's goals</p>
-					</div>
-
-				</div>
-
-			</div>
-
-
-				<div class="row">
-					<div class="col-12 text-center">
-						<a class="btn btn-primary" href="#" id="portfolio-go-home"><i class="fas fa-arrow-alt-circle-left"></i> &nbsp;Back</a>
-					</div>
-				</div>
-		</div>
 	</div>
 	
+	<div class="container-fluid" id="portfolio">
+		<div class="container">
+<!-- 			<div class="row pt-3 text-center">
+				<div class="col-12">
+					<h3>click for more</h3>
+				</div>
+			</div> -->
+
+			<div class="row text-center">
+				<div class="col-md-6">
+					<a href="https://www.imagicode.co">
+						<img class="img-fluid portfolio-img" src="imagicode-portfolio1.png">
+					</a>
+				</div>
+				<div class="col-md-6">
+					<a href="https://heller-pr.com">
+						<img class="img-fluid portfolio-img" src="heller-port-new.png">
+					</a>
+				</div>
+				<div class="col-md-6">
+					<a href="https://www.aftercare.com/text">
+						<img class="img-fluid portfolio-img" src="abt-portfolio-txt.png">
+					</a>
+				</div>
+				<div class="col-md-6">
+					<img class="img-fluid portfolio-img" src="hlg-portfolio-txt.png">
+				</div>
+
+			</div>
+
+
+		</div>
+	</div>
 
 	<!-- CONTACT MODAL -->
 	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-label="contactModalTitle" aria-hidden="true">

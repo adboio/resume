@@ -9,7 +9,6 @@ body, html {
 	padding: 0;
 	background-attachment: fixed;
 	color: white;
-
 }
 
 .vertical-center {
@@ -46,12 +45,16 @@ h1 {
 .portfolio-img {
 
 	margin-bottom: 5px
-	height: 30%;
 
 	/*-webkit-box-shadow: 0px 7px 10px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 7px 10px -1px rgba(0,0,0,0.75);
 	box-shadow: 0px 7px 10px -1px rgba(0,0,0,0.75);*/
 
+}
+
+#portfolio {
+	background-color: #43ab85;
+	padding-bottom: 50px;
 }
 
 h4 {

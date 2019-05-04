@@ -6,6 +6,20 @@ $(document).on('click', 'a[href^="#"]', function(event) {
     }, 750);
 });
 
+// $('#portfolioButton').on('click', function(e) {
+//   e.preventDefault();
+
+//   $('#primary').fadeOut(250, "swing", function() {
+//     $('#portfolio').fadeIn(250);
+//   });
+// });
+
+// $('#portfolio-go-home').on('click', function(e) {
+//   $('#portfolio').fadeOut(250, "swing", function() {
+//     $("#primary").fadeIn(250);
+//   });
+// });
+
 // function buttonCenter(x) {
 
 // 	var left = document.getElementById('left-button');
@@ -33,12 +47,6 @@ $(document).on('click', 'a[href^="#"]', function(event) {
 // $('#left-button').on('click', function(e) {
 //   $('#primary').fadeOut(250, "swing", function() {
 //     $("#portfolio").fadeIn(250);
-//   });
-// });
-
-// $('#portfolio-go-home').on('click', function(e) {
-//   $('#portfolio').fadeOut(250, "swing", function() {
-//     $("#primary").fadeIn(250);
 //   });
 // });
 
