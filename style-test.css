@@ -1,0 +1,23 @@
+body, html {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;
+	color: white;
+}
+
+body {
+	background: #373B44;  /* fallback for old browsers */
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: $background;
+}
